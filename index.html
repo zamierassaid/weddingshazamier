@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wedding</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <nav>
+                <a href="#" class="link">
+                    <span class="material-icons-outlined">event</span>
+                    <span class="text">Calendar</span>
+                </a>
+                <a href="#" class="link">
+                    <span class="material-icons-outlined">mail</span>
+                    <span class="text">RSVP</span>
+                </a>   
+                <a href="#" class="link">
+                    <span class="material-icons-outlined">call</span>
+                    <span class="text">Contact</span>
+                </a> 
+                <a href="#" class="link">
+                    <span class="material-icons-outlined">place</span>
+                    <span class="text">Map</span>
+                </a>
+                <a href="#" class="link">
+                    <span class="material-icons-outlined">chat</span>
+                    <span class="text">Wish</span>
+                </a>
+            </nav>
+
+            <section class="walimatul" id="page-1">
+                <!-- <h1 class="font-cormorant">WALIMATULURUS<br>UNDANGAN MAJLIS<br>PERKAHWINAN</h1> -->
+            </section>
+            
+            <section class="timer">
+                <p class="font-cormorant">Majlis akan berlangsung lagi:</p>
+                <p class="font-cormorant" id="demo"></p>
+                <script>
+                    // Set the date we're counting down to
+                    var countDownDate = new Date("Oct 2, 2022 09:30:00").getTime();
+
+                    // Update the count down every 1 second
+                    var x = setInterval(function() {
+
+                        // Get today's date and time
+                        var now = new Date().getTime();
+    
+                        // Find the distance between now and the count down date
+                        var distance = countDownDate - now;
+    
+                     // Time calculations for days, hours, minutes and seconds
+                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+                        // Output the result in an element with id="demo"
+                        document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    
+                        // If the count down is over, write some text 
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("demo").innerHTML = "EXPIRED";
+                        }
+                    }, 1000);
+                </script>
+            </section>
+
+            <section class="rsvp">
+                <span class="font-cormorant">RSVP</span>
+                <form action="#" method="post">
+                   <p class="font-cormorant">Adakah anda hadir ke majlis kami?</p>
+                   <div>
+                        <input type="radio" name="attend" id="">
+                        <span class="font-cormorant">YA</span>
+                   </div>
+                   <div>
+                        <input type="radio" name="attend" id="">
+                        <span class="font-cormorant">TIDAK</span>
+                   </div>
+                </form>
+                
+            </section>
+
+            <div class="details" id="page-2">
+
+            </div>
+        </div>
+    </body>
+</html>
