@@ -64,13 +64,22 @@ nav {
     align-content: center;
 } */
 
-.walimatul {
+/* .walimatul {
     background-image: url('Invitation Dark Flower Big.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
     height: 0;
     padding-top: 144.4444%;
+} */
+
+#wedding-video {
+    position: static;
+    width: 100%;
+    /* right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%; */
 }
 
 .timer {
