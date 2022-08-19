@@ -69,7 +69,7 @@ a.navbar-item:focus {
 .hero {
   /* background-image: url(https://picsum.photos/id/25/1920/1080); */
   background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("../image/plant-background.jpg") no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   min-height: 100%;
   background-size: cover;
   -o-background-size: cover;
