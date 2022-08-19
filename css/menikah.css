@@ -68,7 +68,7 @@ a.navbar-item:focus {
 
 .hero {
   background-image: url(https://picsum.photos/id/25/1920/1080);
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://images.unsplash.com/photo-1600172454568-acc1f96fb32c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -76,14 +76,35 @@ a.navbar-item:focus {
   font-family: 'Cormorant Garamond', sans-serif;
 }
 
-#wedding-video {
-  position: static;
+.front-section {
+  position: relative;
   width: 100%;
-  /* right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
+
+.front-section .tempatwaktu {
+  text-align: center;
+  /* background: #fff; */
+  z-index: 1;
+}
+
+.front-section .countdown-hari {
+  text-align: center;
+  /* background: #fff; */
+  z-index: 1;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 
 .hero .title {
   font-family: 'Rouge Script', sans-serif;
@@ -95,9 +116,14 @@ a.navbar-item:focus {
 }
 
 .hero .subtitle {
-  padding: 35px;
-  color: whitesmoke;
+  padding: 25px 25px 0;
+  /* color: whitesmoke; */
+  color: rgba(117,73,30,1);
   font-size: 1.3rem;
+}
+
+.hero .initials {
+  mix-blend-mode: multiply;
 }
 
 .hero .tempatwaktu {

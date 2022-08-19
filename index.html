@@ -57,50 +57,6 @@
     <div class="header-wrapper" id="home">
       <!-- Begin Hero -->
       <section class="hero is-large">
-        <!-- Begin Mobile Nav -->
-        <!-- <nav class="navbar is-transparent is-hidden-desktop"> -->
-          <!-- Begin Burger Menu -->
-          <!-- <div class="navbar-brand is-fixed-top">
-            <div class="navbar-burger burger" data-target="mobile-nav">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div> -->
-          <!-- End Burger Menu -->
-          <!-- <div id="mobile-nav" class="navbar-menu">
-            <div class="navbar-end">
-              <div class="navbar-item">
-                <a class="navbar-item" href="#Waktu">
-                  Waktu
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#lokasi">
-                  Lokasi
-                </a>
-              </div>
-              
-              <div class="navbar-item">
-                <a class="navbar-item" href="#tentang-sherly-daeng">
-                  Tentang Sherly dan Daeng
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#rsvp">
-                  RSVP
-                </a>
-              </div>
-            </div>
-          </div>
-        </nav> -->
-        <!-- End Mobile Nav -->
-
-        <!-- Begin Background Video -->
-        <video id="wedding-video" autoplay muted>
-          <source src="image/wedding-front-video2.mp4" type="video/mp4">
-        </video>
-        <!-- End Background Video -->
 
         <!-- Begin Bottom Nav-->
         <nav class="navbar is-fixed-bottom">
@@ -148,50 +104,52 @@
         <!-- Begin Hero Content-->
         <div class="hero-body">
           <div class="container has-text-centered">
-            <h1 class="subtitle">Walimatulurus</h1>
-            <h2 class="title">Shahirrah & Zamier</h2>
+            <h1 class="subtitle">Undangan Pernikahan <br> SHA | ZAMIER </h1>
+            <img class="initials" src="image/initials.png" alt="initials">
+            <!-- <h2 class="title">Shahirrah & Zamier</h2> -->
+            <!-- <div class="bottom-section"> -->
             <h4 class="subtitle tempatwaktu">
-                Ahad, 2 Oktober 2022 
-                </br>
-                Dewan Hikmah, Petrajaya
-                </br>
-                Kuching, Sarawak
-              
+              Ahad, 2 Oktober 2022 
+              </br>
+              Dewan Hikmah, Petrajaya
+              </br>
+              Kuching, Sarawak
             </h4>
-          </div>
-          <!-- Start Countdown -->       
-          <div>
-            <ul id="hitungmundur" >
-              <li><span class="days">00</span><p class="days_text">Hari</p></li>
-              <li class="separator">:</li>
-              <li><span class="hours">00</span><p class="hours_text">Jam</p></li>
-              <li class="separator">:</li>
-              <li><span class="minutes">00</span><p class="minutes_text">Minit</p></li>
-              <li class="separator">:</li>
-              <li><span class="seconds">00</span><p class="seconds_text">Saat</p></li>
-            </ul>
-            <div class="spasi">
+            <!-- </div> -->
+            <!-- Start Countdown -->       
+            <div>
+              <ul id="hitungmundur" >
+                <li><span class="days">00</span><p class="days_text">Hari</p></li>
+                <li class="separator">:</li>
+                <li><span class="hours">00</span><p class="hours_text">Jam</p></li>
+                <li class="separator">:</li>
+                <li><span class="minutes">00</span><p class="minutes_text">Minit</p></li>
+                <li class="separator">:</li>
+                <li><span class="seconds">00</span><p class="seconds_text">Saat</p></li>
+              </ul>
+              <div class="spasi">
+              </div>
+              <script type="text/javascript">
+                var now = new Date();
+                var day = now.getDate();
+                var month = now.getMonth() + 1;
+                var year = now.getFullYear() + 1;
+            
+                var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+                var harih = '10/02/2022 09:30:00';
+  
+                $('#hitungmundur').countdown({
+                  date: harih, // TODO Date format: 07/27/2017 17:00:00
+                  offset: +7, // TODO Your Timezone Offset
+                  day: 'Hari',
+                  days: 'Hari'
+                }, function () {
+                  alert('Done!');
+                });
+              </script>  
             </div>
-            <script type="text/javascript">
-              var now = new Date();
-              var day = now.getDate();
-              var month = now.getMonth() + 1;
-              var year = now.getFullYear() + 1;
-          
-              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
-              var harih = '10/02/2022 09:30:00';
-
-              $('#hitungmundur').countdown({
-                date: harih, // TODO Date format: 07/27/2017 17:00:00
-                offset: +7, // TODO Your Timezone Offset
-                day: 'Hari',
-                days: 'Hari'
-              }, function () {
-                alert('Done!');
-              });
-            </script>  
+            <!-- End Countdown -->
           </div>
-          <!-- End Countdown -->
         </div>
         <!-- End Hero Content-->
         <!-- Begin Hero Menu -->
