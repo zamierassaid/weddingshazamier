@@ -67,11 +67,14 @@ a.navbar-item:focus {
 }
 
 .hero {
-  background-image: url(https://picsum.photos/id/25/1920/1080);
+  /* background-image: url(https://picsum.photos/id/25/1920/1080); */
   background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("../image/plant-background.jpg") no-repeat;
   background-attachment: fixed;
   min-height: 100%;
   background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   color: white;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-family: 'Cormorant Garamond', sans-serif;
@@ -86,26 +89,6 @@ a.navbar-item:focus {
   justify-content: center;
   overflow: hidden;
 }
-
-.front-section .tempatwaktu {
-  text-align: center;
-  /* background: #fff; */
-  z-index: 1;
-}
-
-.front-section .countdown-hari {
-  text-align: center;
-  /* background: #fff; */
-  z-index: 1;
-}
-
-.video-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
 
 .hero .title {
   font-family: 'Rouge Script', sans-serif;
