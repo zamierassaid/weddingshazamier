@@ -66,38 +66,29 @@ a.navbar-item:focus {
   /* font-color: #996E6D; */
 }
 
-/* .link {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-grow: 1;
-  min-width: 50px;
-  overflow: hidden;
-  white-space: nowrap;
-  font-family: sans-serif;
-  font-size: 12px;
-  color: #444444;
-  text-decoration: none;
-  -webkit-tap-highlight-color: transparent;
-  transition: background-color 0.1s ease-in-out;
-} */
-
-/* .link:focus {
-  color: rgba(236,189,114,255);
-} */
-
 .hero {
-  background-image: url(https://picsum.photos/id/25/1920/1080);
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
-  background-attachment: fixed;
+  /* background-image: url(https://picsum.photos/id/25/1920/1080); */
+  background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("../image/plant-background.jpg") no-repeat;
+  /* background-attachment: fixed; */
+  min-height: 100%;
   background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   color: white;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Cormorant Garamond', sans-serif;
 }
 
-
+.front-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
 
 .hero .title {
   font-family: 'Rouge Script', sans-serif;
@@ -109,9 +100,14 @@ a.navbar-item:focus {
 }
 
 .hero .subtitle {
-  padding: 35px;
-  color: whitesmoke;
+  padding: 25px 25px 0;
+  /* color: whitesmoke; */
+  color: rgba(117,73,30,1);
   font-size: 1.3rem;
+}
+
+.hero .initials {
+  mix-blend-mode: multiply;
 }
 
 .hero .tempatwaktu {
