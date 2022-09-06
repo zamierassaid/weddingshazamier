@@ -58,6 +58,10 @@ a.navbar-item:focus {
   color: rgba(236,189,114,1) !important;
 }
 
+a.navbar-item:hover {
+  color: rgba(236,189,114,1);
+}
+
 .navbar-item.is-active{
   /* border-bottom: 2px solid #996E6D; */
 }
@@ -250,6 +254,7 @@ a.navbar-item:focus {
 
 .section-map {
   padding: 0 0 0 0 ;
+  margin-top: 30px;
 }
 
 .main-content .section-light {
@@ -381,9 +386,8 @@ vertical-align: middle;
   font-size: 1.4rem;
   font-family: 'Raleway', sans-serif;
   font-size: ;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
-
 
 .has-vertically-align {
   vertical-align: middle;
@@ -440,6 +444,10 @@ vertical-align: middle;
   display: inline-block;
   max-height: 50px;
   vertical-align: middle;
+}
+
+.section-dark #money {
+  background-color: red;
 }
 
 #toTop {
@@ -610,7 +618,7 @@ body.preloader-site {
 }
 
 
-.foto1 {
+/* .foto1 {
   background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-kang-emil.jpg");
   background-size: cover;
   background-position: center;
@@ -679,7 +687,7 @@ body.preloader-site {
   margin-top: 15px;
   text-align: left;
   color: white;
-}
+} */
 
 .section-light {
   background-image: url(../image/divider-flowers-leaves.png);

@@ -66,13 +66,13 @@
               <div class="navbar-item">
                 <a class="navbar-item" href="#Waktu">
                   <span class="material-icons-outlined">event</span>
-                  <span class="text">Waktu</span>
+                  <span class="text">Date</span>
                 </a>
               </div>
               <div class="navbar-item">
                 <a class="navbar-item" href="#lokasi">
                   <span class="material-icons-outlined">place</span>
-                  <span class="text">Lokasi</span>
+                  <span class="text">Location</span>
                 </a>
               </div>
             
@@ -109,7 +109,7 @@
             <!-- <h2 class="title">Shahirrah & Zamier</h2> -->
             <!-- <div class="bottom-section"> -->
             <h4 class="subtitle tempatwaktu">
-              Ahad, 2 Oktober 2022 
+              Sunday, 2 October 2022 
               </br>
               Dewan Hikmah, Petrajaya
               </br>
@@ -119,13 +119,13 @@
             <!-- Start Countdown -->       
             <div>
               <ul id="hitungmundur" >
-                <li><span class="days">00</span><p class="days_text">Hari</p></li>
+                <li><span class="days">00</span><p class="days_text">Days</p></li>
                 <li class="separator">:</li>
-                <li><span class="hours">00</span><p class="hours_text">Jam</p></li>
+                <li><span class="hours">00</span><p class="hours_text">Hours</p></li>
                 <li class="separator">:</li>
-                <li><span class="minutes">00</span><p class="minutes_text">Minit</p></li>
+                <li><span class="minutes">00</span><p class="minutes_text">Minutes</p></li>
                 <li class="separator">:</li>
-                <li><span class="seconds">00</span><p class="seconds_text">Saat</p></li>
+                <li><span class="seconds">00</span><p class="seconds_text">Seconds</p></li>
               </ul>
               <div class="spasi">
               </div>
@@ -141,8 +141,8 @@
                 $('#hitungmundur').countdown({
                   date: harih, // TODO Date format: 07/27/2017 17:00:00
                   offset: +7, // TODO Your Timezone Offset
-                  day: 'Hari',
-                  days: 'Hari'
+                  day: 'Day',
+                  days: 'Days'
                 }, function () {
                   alert('Done!');
                 });
@@ -188,8 +188,7 @@
     <!-- Begin Main Content -->
     <div class="main-content">
     <!-- Begin regular-section-->
-     <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
-        
+      <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
         <div data-aos="fade-up" data-aos-easing="linear">
           <img src="image/bismillah.png" class="bismillah has-text-centered" alt="Bismillahirrahmaanirrahiim">
         </div>
@@ -224,23 +223,23 @@
         <span class="space40px"></span>
         <span class="space40px"></span>
       </section>
-      <!-- End regular-section-->    
+    <!-- End regular-section-->    
       
       <!-- Begin Waktu Section -->
       <section class="section-dark" id="Waktu">
         <div class="container">
 
           <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
-            <h1 class="title has-text-centered section-title">Waktu</h1>
+            <h1 class="title has-text-centered section-title">Date</h1>
           </div>
           <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
             <div
               class="column is-4 has-vertically-aligned-content">
             
               <p class="is-larger has-text-centered">
-                  <div class="waktu tanggal-hari has-text-centered">Ahad</div> 
+                  <div class="waktu tanggal-hari has-text-centered">Sunday</div> 
                   <div class="waktu tanggal-angka has-text-centered">02</div>
-                  <div class="waktu tanggal-bulan has-text-centered">Oktober 2022</div>
+                  <div class="waktu tanggal-bulan has-text-centered">October 2022</div>
               </p>
             
             </div>
@@ -251,49 +250,32 @@
                 <br>
                 <strong>17.00 WIB</strong>
               </p> -->
-            
-            </div>
+          </div>
 
-            <div class="column is-4 has-vertically-aligned-content">
-              
-              <h1 class="waktu is-larger has-text-centered">
-                Aturcara Majlis:
-                <br>
-                <strong>9.30 pagi  - 1.30 petang</strong>
-              </h1>
-              
-            <!-- <div id="add-to-cal">
-              <div class="add-to-calendar" id="72305">
-                <label id="add-to-calendar-label" for="checkbox-for-72305" class="btn btn-fill btn-small">
-                  <i class="fa fa-calendar"></i>&nbsp;&nbsp; Add to Calendar
-                </label>
-                <input name="add-to-calendar-checkbox" class="add-to-calendar-checkbox" id="checkbox-for-72305" type="checkbox">
-                <a class="icon-google" target="_blank" href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text=Ram%20and%20Antara's%20Wedding&amp;dates=20171127T020000Z/20171128T160000Z&amp;details=We%20can't%20wait%20to%20see%20you%20on%20our%20big%20day.%20For%20any%20queries%20or%20issues,%20please%20contact%20Mr.%20Amit%20Roy%20at%20+91%209876543210.&amp;location=ITC%20Fortune%20Park%20Hotel,%20Kolkata&amp;sprop=&amp;sprop=name:">Google Calendar</a>
-                <a class="icon-yahoo" target="_blank" href="http://calendar.yahoo.com/?v=60&amp;view=d&amp;type=20&amp;title=Ram%20and%20Antara's%20Wedding&amp;st=20171127T100000Z&amp;dur=3800&amp;desc=We%20can't%20wait%20to%20see%20you%20on%20our%20big%20day.%20For%20any%20queries%20or%20issues,%20please%20contact%20Mr.%20Amit%20Roy%20at%20+91%209876543210.&amp;in_loc=ITC%20Fortune%20Park%20Hotel,%20Kolkata">Yahoo! Calendar</a>
-                <a class="icon-ical" target="_blank" href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0AURL:file:///C:/Users/Zamier/Desktop/wedding-website-master/index.html%0ADTSTART:20171127T020000Z%0ADTEND:20171128T160000Z%0ASUMMARY:Ram%20and%20Antara's%20Wedding%0ADESCRIPTION:We%20can't%20wait%20to%20see%20you%20on%20our%20big%20day.%20For%20any%20queries%20or%20issues,%20please%20contact%20Mr.%20Amit%20Roy%20at%20+91%209876543210.%0ALOCATION:ITC%20Fortune%20Park%20Hotel,%20Kolkata%0AEND:VEVENT%0AEND:VCALENDAR">iCal Calendar</a>
-                <a class="icon-outlook" target="_blank" href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0AURL:file:///C:/Users/Zamier/Desktop/wedding-website-master/index.html%0ADTSTART:20171127T020000Z%0ADTEND:20171128T160000Z%0ASUMMARY:Ram%20and%20Antara's%20Wedding%0ADESCRIPTION:We%20can't%20wait%20to%20see%20you%20on%20our%20big%20day.%20For%20any%20queries%20or%20issues,%20please%20contact%20Mr.%20Amit%20Roy%20at%20+91%209876543210.%0ALOCATION:ITC%20Fortune%20Park%20Hotel,%20Kolkata%0AEND:VEVENT%0AEND:VCALENDAR">Outlook Calendar</a>
-              </div>
-            </div> -->
-
-            </div>
-
+          <div class="column is-4 has-vertically-aligned-content">
+            <h1 class="waktu is-larger has-text-centered">
+              Event Schedule:
+              <br>
+              <strong>9:30 AM  - 1:30 PM</strong>
+            </h1>
+          </div>
+          <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+              <a href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NzNwODB0OWk4cmRoMTBmbzlzYjdxdXNtajcgemFtYXNzYWlkQG0&amp;tmsrc=zamassaid%40gmail.com" target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in">
+                <i class="far fa-calendar-plus"></i>
+                &nbsp;&nbsp;Google Calendar
+              </a>
           </div>
         </div>
-        <div class="space40px"></div>
-        <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
-          <a href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NGgzdW00NG84dXFwMzcwNXYxbGliNGxzaWggZGFlbmdkb2FuZ0Bt&amp;tmsrc=daengdoang%40gmail.com" target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in">
-            <i class="far fa-calendar-plus"></i>
-            &nbsp;&nbsp;Google Calendar
-          </a>
-        </div>
-      </section>
-      <!-- End Waktu Content -->
+        <!-- End Waktu Content -->
 
+        <div class="space40px"></div>
+      </section>
+      
       <!-- Begin Lokasi Section -->
       <section class="section-darker" id="lokasi" >
         <div class="container">
           <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
-            <h1 class="title has-text-centered section-title">Lokasi</h1>
+            <h1 class="title has-text-centered section-title">Location</h1>
             <p class="tempat is-larger has-text-centered">
               <strong>Dewan Hikmah</strong>
               <br>
@@ -303,114 +285,68 @@
               <br>
             </p>
           </div>
-          <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.2987505025912!2d110.34344261525523!3d1.5813761612270942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba91c8a577e0b%3A0x6a72fa9e6adb0080!2sDewan%20HIKMAH!5e0!3m2!1sen!2smy!4v1660605364021!5m2!1sen!2smy" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-          </div>
-          <div class="space40px"></div>
+
           <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
             <a href="https://goo.gl/maps/LbnpHJCaQkK9ios9A" class="button btn-cta" target="_blank" data-aos="zoom-in">
               <i class="far fa-directions"></i>
               &nbsp;&nbsp;Google Maps
             </a>
           </div>
+
+          <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.2987505025912!2d110.34344261525523!3d1.5813761612270942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba91c8a577e0b%3A0x6a72fa9e6adb0080!2sDewan%20HIKMAH!5e0!3m2!1sen!2smy!4v1660605364021!5m2!1sen!2smy" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+          <div class="space40px"></div>
         </div>
       </section>
-      <!-- End Lokasi Content -->
+      <!-- End Lokasi Content --> 
 
-      <!-- Begin Tentang Sherly and Daeng -->
-      <!-- <section class="section-light regular-section is-fullheight" id="tentang-sherly-daeng">
+      <!-- Begin Money Gift Section -->
+      <section class="section-dark" id="money">
         <div class="container">
-          <div class="columns is-multiline">  
-          <div class="column has-text-centered is-12 prolog">
-            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Tentang Sherly dan Daeng</h1> -->
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Money</h1>
+          </div>
+          <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
+            <div class="column is-4 has-vertically-aligned-content">
+              <p class="is-larger has-text-centered">
+                  <div class="waktu tanggal-hari has-text-centered">Sunday</div> 
+                  <div class="waktu tanggal-angka has-text-centered">02</div>
+                  <div class="waktu tanggal-bulan has-text-centered">October 2022</div>
+              </p>
+            </div>
+            <!-- <div class="column is-4 has-vertically-aligned-content">
             
-
-          
-          <!-- IMAGES -->  
-        <!-- <div class=" tile">
-          <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <article class="tile is-child foto1 notification foto1" data-aos="fade-up" data-aos-easing="linear">
-              <div class="content">
-                <p class="title-foto">November 2018</p>
-                <p class="subtitle-foto">
-                  Pertama kali saling kenal di <a href="https://cashbac.com" target="_blank">Cashbac</a>
-                </p>
-              </div>
-            </article>
+              <p class="waktu is-larger has-text-centered">
+                Akad Nikah:
+                <br>
+                <strong>17.00 WIB</strong>
+              </p> -->
           </div>
-          <div class="tile is-parent">
-            <article class="tile is-child notification foto2" data-aos="fade-up" data-aos-easing="linear">
-              <div class="content">
-                <p class="title-foto">
-                  Desember 2018 - Februari 2019
-                </p>
-                <p class="subtitle-foto">
-                  Satu kantor, satu divisi, dan posisi tempat duduk saling membelakangi.
-                </p>   
-              </div>            
-            </article>
+          <div class="column is-4 has-vertically-aligned-content">
+            <h1 class="waktu is-larger has-text-centered">
+              Event Schedule:
+              <br>
+              <strong>9:30 AM  - 1:30 PM</strong>
+            </h1>
           </div>
-          <div class="tile is-parent">
-            <article class="tile is-child notification foto3" data-aos="fade-up" data-aos-easing="linear">
-              <div class="content">  
-                <p class="title-foto">
-                  Maret 2019
-                </p>
-                <p class="subtitle-foto">
-                  Cerita cinta dimulai
-                </p>
-              </div>
-            </article>
+          <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+            <a href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NzNwODB0OWk4cmRoMTBmbzlzYjdxdXNtajcgemFtYXNzYWlkQG0&amp;tmsrc=zamassaid%40gmail.com" target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in">
+              <i class="far fa-calendar-plus"></i>
+              &nbsp;&nbsp;Google Calendar
+            </a>
           </div>
         </div>
-      </div>
-      <div class="space24px"></div>
-      <div class="tile is-ancestor">
-        <div class="tile is-parent">
-          <article class="tile is-child notification foto6" data-aos="fade-up" data-aos-easing="linear">
-            <div class="content">
-              <p class="title-foto">Juni 2019</p>
-              <p class="subtitle-foto">Pertemuan 2 keluarga</p>
-            </div>
-          </article>
-        </div>
-        <div class="tile is-parent">
-          <article class="tile is-child notification foto4" data-aos="fade-up" data-aos-easing="linear">
-            <div class="content">
-              <p class="title-foto">Desember 2019</p>
-              <p class="subtitle-foto">Lamaran</p>
-            </div>
-          </article>
-        </div>
-        <div class="tile is-parent">              
-          <article class="tile is-child notification foto5" data-aos="fade-up" data-aos-easing="linear">
-            <div class="content">
-              <p class="title-foto">Maret 2020</p>
-              <p class="subtitle-foto">Menikah</p>
-            </div>
-          </article>
-        </div>
-      </div> -->
-          <!-- IMAGES -->
-          <!-- <div class="space40px"></div>
-            <div data-aos="fade-up" data-aos-easing="linear">
-              <img src="image/divider-leaves.png" class="divider has-vertically-align" alt="~~~">
-            </div> 
-            <div class="space40px"></div>
-            <div class="space40px"></div>
-
-          </div>
-        </div>
-      </section> -->
-      <!-- End Tentang Sherly dan Daeng -->
+        <div class="space40px"></div> 
+      </section>
+      <!-- End Waktu Content -->
 
       <!-- Begin RSVP Content -->
       <section class="section-dark contact" id="rsvp">
         <div class="container">
           <div class="columns is-multiline">          
             <div class="column is-12 prolog">
-              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Pengesahan Kehadiran</h1>
+              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">CONTACT</h1>
             </div>
             <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
               <p class="h2 subtitle">
