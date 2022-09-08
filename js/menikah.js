@@ -22,6 +22,17 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 
+// Hide/Show Button
+function showQR() {
+  var x = document.getElementById("duitNow");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  }
+  else {
+    x.style.display = "none";
+  }
+}
+
 // Smooth Anchor Scrolling
 $(document).on("click", 'a[href^="#"]', function(event) {
   event.preventDefault();
