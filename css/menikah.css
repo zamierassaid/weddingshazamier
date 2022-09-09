@@ -482,6 +482,27 @@ a.dropdown-item {
   padding-right: 0;
 }
 
+.section-modal-dark {
+  background-color: #F4E2E2;
+}
+
+.section-modal-darker {
+  background-color: #EDD2D1;
+}
+
+.modal-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.modal .button a {
+  text-decoration: none;
+  color: white;
+}
+
 #toTop {
   height: 50px;
   width: 50px;
