@@ -62,14 +62,6 @@ a.navbar-item:hover {
   color: rgba(236,189,114,1);
 }
 
-.navbar-item.is-active{
-  /* border-bottom: 2px solid #996E6D; */
-}
-
-.a.navbar-item{
-  /* font-color: #996E6D; */
-}
-
 .hero {
   /* background-image: url(https://picsum.photos/id/25/1920/1080); */
   /* background: linear-gradient(rgba(255, 255, 255, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("../image/plant-background.jpg") no-repeat; */
@@ -154,7 +146,7 @@ a.navbar-item:hover {
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop {
   line-height: 38px;
   font-weight: 600;
-  text-transform: ;
+  /* text-transform: ; */
   letter-spacing: 1px;
   font-size: 1rem;
 }
@@ -404,7 +396,7 @@ vertical-align: middle;
 .tempat {
   font-size: 1.4rem;
   font-family: 'Raleway', sans-serif;
-  font-size: ;
+  /* font-size: ; */
   margin-bottom: 10px;
 }
 
@@ -472,7 +464,22 @@ vertical-align: middle;
 .cimbQR {
   width: 50%;
   height: 50%;
+}
 
+.dropdown-menu {
+  /* display: none; */
+  left: 0;
+  right: 0;
+}
+
+.dropdown-content {
+  max-height: 5em;
+  overflow: auto;
+}
+
+a.dropdown-item {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #toTop {

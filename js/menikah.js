@@ -33,6 +33,22 @@ function showQR() {
   }
 }
 
+// Hide/Show Dropdown
+// var dropdown = document.querySelector('.dropdown');
+// dropdown.addEventListener('click', function(event) {
+//   event.stopPropagation();
+//   dropdown.classList.toggle('is-active');
+// });
+function showDropdown() {
+  var Dropdown = document.getElementById("dropdown-menu2");
+  if (Dropdown.style.display === "none") {
+    Dropdown.style.display = "block";
+  }
+  else {
+    Dropdown.style.display = "none";
+  }
+}
+
 // Smooth Anchor Scrolling
 $(document).on("click", 'a[href^="#"]', function(event) {
   event.preventDefault();
