@@ -423,6 +423,13 @@ vertical-align: middle;
   vertical-align: middle;
 }
 
+.footer span {
+  color: white;
+  font-weight: 500;
+  font-size: 10pt;
+  display: inline-block;
+  /* vertical-align: middle; */
+}
 
 .main-content .no-padding-top {
   padding-top: 0px;
