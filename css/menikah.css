@@ -474,7 +474,7 @@ vertical-align: middle;
 
 .dropdown-content {
   max-height: 5em;
-  overflow: scroll;
+  overflow: auto;
 }
 
 a.dropdown-item {
