@@ -357,7 +357,7 @@ a.navbar-item:hover {
 .nama-lengkap {
   font-family: 'Rouge Script', sans-serif;
   color: #996E6D;
-  font-size: 3.5rem;
+  font-size: 3rem;
   letter-spacing: 0px;
   padding-bottom: 6px;
   line-height: 3.7rem;
@@ -374,6 +374,14 @@ vertical-align: middle;
 
 .bodytext {
   font-size: 18px;
+}
+
+.invite-main {
+  padding: 10px 0;
+}
+
+.salam {
+  font-size: 14px;
 }
 
 .waktu {
