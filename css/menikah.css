@@ -359,8 +359,12 @@ a.navbar-item:hover {
   color: #996E6D;
   font-size: 3rem;
   letter-spacing: 0px;
-  padding-bottom: 6px;
+  /* padding-bottom: 6px; */
   line-height: 3.7rem;
+}
+
+.father {
+  font-size: 2.6rem;
 }
 
 .ampersand {
@@ -370,6 +374,7 @@ color: #996E6D;
 line-height: 5rem;
 display: inline-block;
 vertical-align: middle;
+padding: 10px 0;
 }
 
 .bodytext {
@@ -488,7 +493,7 @@ vertical-align: middle;
 }
 
 .dropdown-content {
-  max-height: 5em;
+  max-height: 17em;
   overflow: auto;
 }
 
