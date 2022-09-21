@@ -52,7 +52,7 @@ html {
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   transition: background-color 0.1s ease-in-out;
-  /* padding: 8px 10px; */
+  padding: 8px 9px;
 }
 
 a.navbar-item:focus {
@@ -79,11 +79,11 @@ a.navbar-item:hover {
 }
 
 .fade-in {
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
-  -moz-animation: fadeIn ease 5s;
-  -o-animation: fadeIn ease 5s;
-  -ms-animation: fadeIn ease 5s;
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
 }
 @keyframes fadeIn {
   0% {opacity:0;}
