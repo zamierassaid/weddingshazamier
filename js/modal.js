@@ -206,3 +206,19 @@ mdl10.addEventListener('modal:show', function() {
 mdl10.addEventListener("modal:close", function() {
 	console.log("closed")
 })
+
+// Modal 11
+var btn11 = document.querySelector("#item11")
+var mdl11 = new BulmaModal("#modal11")
+
+btn11.addEventListener("click", function () {
+	mdl11.show()
+})
+
+mdl11.addEventListener('modal:show', function() {
+	console.log("opened")
+})
+
+mdl11.addEventListener("modal:close", function() {
+	console.log("closed")
+})

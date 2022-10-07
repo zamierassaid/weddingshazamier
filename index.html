@@ -146,14 +146,14 @@
                 var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
                 var harih = '10/02/2022 09:30:00';
   
-                $('#hitungmundur').countdown({
-                  date: harih, // TODO Date format: 07/27/2017 17:00:00
-                  offset: +7, // TODO Your Timezone Offset
-                  day: 'Day',
-                  days: 'Days'
-                }, function () {
-                  alert('Done!');
-                });
+                // $('#hitungmundur').countdown({
+                //   date: harih, // TODO Date format: 07/27/2017 17:00:00
+                //   offset: +7, // TODO Your Timezone Offset
+                //   day: 'Day',
+                //   days: 'Days'
+                // }, function () {
+                //   alert('Done!');
+                // });
               </script>  
             </div>
             <!-- End Countdown -->
@@ -340,10 +340,10 @@
               </div> 
 
               <!-- QR Button -->
-              <div class="waktu tanggal-angka has-text-centered">
+              <div class="qr has-text-centered">
                 <button onclick="showQR()" class="button has-tooltip btn-cta">DuitNow QR</button>
                 <div class="has-text-centered" id="duitNow">
-                  <p class="waktu has-text-centered">
+                  <p class="qr has-text-centered">
                     Transfer via CIMB
                     <br>
                     7055610452
@@ -357,7 +357,7 @@
               <!-- Registry -->
               
               <div class="has-text-centered">
-                <p>
+                <p class="duit">
                   Want to buy something for us instead?
                   <br>
                   Please scroll from the dropdown list below and click on the item.
@@ -404,6 +404,9 @@
                       <a href="#" class="dropdown-item" id="item10">
                         Pots & Pans
                       </a>
+                      <a href="#" class="dropdown-item" id="item11">
+                        Beddings
+                      </a>
                       <!-- <a href="#" class="dropdown-item">
                         Tableware set
                       </a>
@@ -416,16 +419,14 @@
                       <a href="#" class="dropdown-item">
                         Knives Set
                       </a>
-                      <a href="#" class="dropdown-item">
-                        Beddings -->
-                      </a>
+                       -->
                     </div>
                   </div>
                 </div>
               </div>
 
               <div class="has-text-centered">
-                <p>If you need our address, please contact us.</p>
+                <p class="duit">If you need our address, please contact us.</p>
 
                 <a href="https://api.whatsapp.com/send?phone=601133317322&text=Hi!%20I'm%20planning%20to%20get%20you%20something...&source=&data=" class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
                   <i class="fab fa-whatsapp"></i>
@@ -467,7 +468,6 @@
      
               <div class="space40px"></div>
 
-              <div class="space40px"></div>
               <div data-aos="fade-up" data-aos-easing="linear">
                 <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
               </div>
@@ -689,13 +689,31 @@
           </header>
           <section class="modal-card-body section-modal-dark">
             <button class="button has-tooltip btn-cta">
-              <a href="#" target="_blank">Option 1</a>
+              <a href="https://shopee.com.my/product/23746946/7244146915?smtt=0.50288535-1663748676.9" target="_blank">Option 1</a>
              </button>
             <button class="button has-tooltip btn-cta">
-              <a href="#" target="_blank">Option 2</a>
+              <a href="https://shopee.com.my/product/23746946/5721282098?smtt=0.50288535-1663748746.9" target="_blank">Option 2</a>
             </button>
             <button class="button has-tooltip btn-cta">
-              <a href="#" target="_blank">Option 3</a>
+              <a href="https://shopee.com.my/product/23746946/14330814587?smtt=0.50288535-1663748801.9" target="_blank">Option 3</a>
+            </button>
+          </section>
+        </div>
+      </div>
+
+      <!-- Modal 11 -->
+      <div class="modal" id="modal11">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head section-modal-darker">
+            <p class="modal-card-title has-text-centered">Beddings</p>
+          </header>
+          <section class="modal-card-body section-modal-dark">
+            <button class="button has-tooltip btn-cta">
+              <a href="https://www.ikea.com/my/en/p/bergpalm-duvet-cover-and-pillowcase-grey-stripe-50423262/" target="_blank">Option 1</a>
+             </button>
+            <button class="button has-tooltip btn-cta">
+              <a href="https://www.ikea.com/my/en/p/nattjasmin-sarung-duvet-dan-2-sarung-bantal-90479110/" target="_blank">Option 2</a>
             </button>
           </section>
         </div>
